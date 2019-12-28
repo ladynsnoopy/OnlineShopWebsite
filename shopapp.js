@@ -1,29 +1,4 @@
-// var modal = document.querySelector(".modal");
-// var trigger = document.querySelector(".trigger");
-// var closeButton = document.querySelector(".close-button");
-// var confirmCloseButton = document.querySelector(".confirm");
-// var cartButton = document.querySelector(".cartbutton");
 
-// function toggleModal() {
-//     modal.classList.toggle("show-modal");
-// }
-
-// function windowOnClick(event) {
-//     if (event.target === modal) {
-//         toggleModal();
-//     }
-// }
-// function showConfirmation(){
-//     document.querySelector(".modal-content").style.display = "none";
-//     document.querySelector(".modal-confirm").style.display = "block";
-// }
-
-
-// trigger.addEventListener("click", toggleModal);
-// closeButton.addEventListener("click", toggleModal);
-// window.addEventListener("click", windowOnClick);
-// cartButton.addEventListener("click",showConfirmation);
-// confirmCloseButton.addEventListener("click",toggleModal);
 
 
 var cartController = (function(){
